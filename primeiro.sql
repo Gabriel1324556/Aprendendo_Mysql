@@ -11,5 +11,7 @@ CREATE TABLE pessoas(
 )DEFAULT CHARSET=utf8mb4;
 
 
-USE cadrastro;
-INSERT INTO pessoas(nome, idade, sexo, peso, altura, nacionalidade) VALUES
+USE cadastro;
+(nome, idade, sexo, peso, altura, nacionalidade) 
+
+('1', 'Godofredo', '1984-01-02', 'm', '78.5', '1.83', 'Brasil');
