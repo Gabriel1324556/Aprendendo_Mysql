@@ -11,7 +11,19 @@ CREATE TABLE pessoas(
 )DEFAULT CHARSET=utf8mb4;
 
 
-USE cadastro;
-(nome, idade, sexo, peso, altura, nacionalidade) 
+/*
+?USE cadastro;
+?INSERT INTO pessoas
+?(nome, idade, sexo, peso, altura, nacionalidade)
 
-('1', 'Godofredo', '1984-01-02', 'm', '78.5', '1.83', 'Brasil');
+?VALUES('Godofredo', '1984-01-02', 'm', '78.5', '1.83', 'Brasil');
+
+?select * FROM pessoas;
+
+*/
+
+/* ou */
+
+USE cadastro;
+INSERT INTO pessoas VALURES
+('Gabriel Sousa Santos', '2009-03-09', 'M', '53', '1.70','Brasil');
