@@ -27,4 +27,8 @@
 
 USE cadastro;
 INSERT INTO pessoas VALUES
-(DEFAULT, 'Gabriel Sousa Santos', '2009-03-09', 'M', '53', '1.70','Brasil');
+(DEFAULT, 'Gabriel Sousa Santos', '2009-03-09', 'M', '53', '1.70','Brasil'),
+(DEFAULT, 'Pedro', '2006-09-06', 'M', '76', '1.87','Brasil'),
+(DEFAULT, 'Janaína', '1999-06-13', 'F', '62', '1.69', 'Brasil');
+
+SELECT * FROM pessoas;
